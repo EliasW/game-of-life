@@ -1,0 +1,3 @@
+Horizontal 10
+vertical 5
+generation 20
