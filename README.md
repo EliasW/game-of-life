@@ -22,16 +22,16 @@ The file input.txt under the sorce specifies the initial state of the game:
 <li>Grid size (Horizonta & Vertical)</li>
 <li>Number of live cells (Generation)</li>
 <li>Speed of simulation (Speed Interval)</li>
-
+<br> 
 <strong>Screenshots </strong> <br> 
 
-<strong>Play the Game </strong>
+<li><strong>Play the Game </strong> </li>
 
 <p align="center">
   <img src="https://github.com/EliasW/game-of-life/blob/master/src/game-of-life.png"">
 </p>
 
-<strong> Stop the Game </strong>
+<li><strong> Stop the Game </strong> </li>
 <p align="center">
   <img src="https://github.com/EliasW/game-of-life/blob/master/src/game-of-life-stop.png"">
 </p>
