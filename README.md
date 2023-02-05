@@ -6,10 +6,18 @@ Conway's Game of Life in React
 This project implements Conway's Game of Life using React and Typescript, React isa JavaScript library for building user interfaces. The Game of Life is a cellular automaton that simulates the evolution of a population of cells over time.
 
 <strong>How to use </strong> <br>
+
+<ol type="1">
+      <li>Clone the repository</li>
+      <li>cd into the project directory </li>
+      <li>run the following commands in your terminal</li>
+   </ol>
 Clone the repository and run the following commands in your terminal:
 
-<code>npm install</code>
-<code>npm start</code>
+<ol>
+      <li><code>npm install</code></li>
+      <li><code>npm start</code></li>
+</ol>
 
 Key Features
 
