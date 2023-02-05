@@ -12,8 +12,8 @@ This project implements Conway's Game of Life using React and Typescript, React 
       <li>cd into the project directory </li>
       <li>run the following commands in your terminal</li>
    </ol>
-      <li align="center"><code>npm install</code></li>
-      <li align="center"><code>npm start</code></li>
+      <li><code>npm install</code></li>
+      <li><code>npm start</code></li>
 
 Key Features
 
