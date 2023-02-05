@@ -14,8 +14,8 @@ This project implements Conway's Game of Life using React and Typescript, React 
    </ol>
       <li><code>npm install</code></li>
       <li><code>npm start</code></li>
+      <br>
 
-Key Features
-
+<strong>Key Features </strong> 
 The file input.txt under the sorce specifies the initial state of the game:
 grid size, number of live cells and speed of simulation
