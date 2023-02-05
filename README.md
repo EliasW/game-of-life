@@ -7,13 +7,13 @@ This project implements Conway's Game of Life using React and Typescript, React 
 
 <strong>How to use </strong> <br>
 Clone the repository and run the following commands in your terminal:
-
+<div margin-left:20px; background-color:black>
 <code>
 sql
-Copy code
 npm install
 npm start
 </code>
+</div>
 
 Key Features
 
