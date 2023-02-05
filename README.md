@@ -8,8 +8,8 @@ This project implements Conway's Game of Life using React and Typescript, React 
 <strong>How to use </strong> <br>
 Clone the repository and run the following commands in your terminal:
 
-<code>npm install
-npm start</code>
+<code>npm install</code>
+<code>npm start</code>
 
 Key Features
 
