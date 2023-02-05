@@ -23,7 +23,8 @@ The file input.txt under the sorce specifies the initial state of the game:
 <li>Number of live cells (Generation)</li>
 <li>Speed of simulation (Speed Interval)</li>
 <br> 
-<strong>Screenshots </strong> <br> 
+<strong>Screenshots </strong> 
+<br> 
 
 <li><strong>Play the Game </strong> </li>
 
