@@ -22,6 +22,7 @@ The file input.txt under the sorce specifies the initial state of the game:
 <li>Grid size (Horizonta & Vertical)</li>
 <li>Number of live cells (Generation)</li>
 <li>Speed of simulation (Speed Interval)</li>
+<li>Population state (DeadCell, liveCell)</li>
 <br> 
 <strong>Screenshots </strong> 
 <br> 

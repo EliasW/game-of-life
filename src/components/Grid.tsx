@@ -42,8 +42,8 @@ const positions = [
 ]
 
 function Grid({ ...props }) {
-    const { generation, horizontal, vertical, speedInterval } = props
-    debugger
+    const { generation, horizontal, vertical, speedInterval, deadCell, liveCell } = props
+
     const [grid, setGrid] = useState(() => {
         return constructGrid(0, 0, 0);
     })
@@ -109,7 +109,7 @@ function Grid({ ...props }) {
                         grid.map((rows, i) =>
                             <li key={i} style={{ listStyle: 'none', margin: "10px" }}>{
                                 rows.map((col, k) => (
-                                    <div key={k} style={{ fontSize: "20px", fontWeight: "bold" }}>{grid[i][k] ? '*' : '.'}</div>
+                                    <div key={k} style={{ fontSize: "20px", fontWeight: "bold" }}>{grid[i][k] ? liveCell : deadCell}</div> //, deadCell, liveCell
                                 ))}
                             </li>
                         )}
