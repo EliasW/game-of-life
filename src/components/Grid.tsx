@@ -49,18 +49,16 @@ function Grid({ ...props }) {
     })
     const [start, setStart] = useState(false)
     const startRef = useRef(start)
+    startRef.current = start
     useEffect(() => {
         setGrid(constructGrid(horizontal, vertical, generation))
     }, [])
-
-    console.log("grid grid", grid)
 
     function runSimulation() {
         if (!startRef.current) {
             return
         }
         setGrid((grid) => {
-            console.log("grid G", grid)
             const nextGeneration = grid.map((row, i) => {
                 return row.map((cell, j) => {
                     let neighbors = 0
@@ -88,7 +86,7 @@ function Grid({ ...props }) {
         <>
             <div className="containerGame"> GAME OF LIFE
                 <div className="menuGrid">
-                    <button className="playButton"
+                    <button className="playButton" style={{ backgroundColor: start ? "red" : "green" }}
                         onClick={() => {
                             setStart(!start)
                             if (!start) {

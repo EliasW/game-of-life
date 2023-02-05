@@ -42,10 +42,9 @@ button{
 
 .playButton{
   margin-right: 20px;
-  background-color: green;
 }
 
 .resetButton{
   margin-left: 2px;
-  background-color: green;
+  background-color: yellow;
 }
