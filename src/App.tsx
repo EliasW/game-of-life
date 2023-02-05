@@ -11,17 +11,19 @@ const fetchData = async () => {
   var cols = lines[0].split(" ")[1]
   var rows = lines[1].split(" ")[1]
   var generation = lines[2].split(" ")[1]
+  var speedInterval = lines[3].split(" ")[1]
 
   var result = {
     horizontal: cols,
     vertical: rows,
-    generation: generation
+    generation: generation,
+    speedInterval: speedInterval
   };
   return result
 }
 
 function App() {
-  const [props, setProps] = useState({ vertical: '', horizontal: '', generation: '' })
+  const [props, setProps] = useState({ vertical: '', horizontal: '', generation: '', speedInterval: '' })
   const [grid, setGrid] = useState(false)
 
   //read the initial setting (generation, grid size) of the game
@@ -35,8 +37,8 @@ function App() {
     })
 
   }, [])
-  
-  const { vertical, horizontal, generation } = props
+
+  const { vertical, horizontal, generation, speedInterval } = props
 
   if (grid && ((Number(vertical) * Number(horizontal)) >= Number(generation))) return (<Grid {...props} />)
   else if (grid && (Number(vertical) * Number(horizontal) < Number(generation))) return (<> <div style={{ margin: "30px" }}>Initial generation is out of grid </div> </>)

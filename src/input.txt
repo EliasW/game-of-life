@@ -1,3 +1,4 @@
 Horizontal 10
 vertical 5
 generation 20
+speedInterval 1000

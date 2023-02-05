@@ -42,7 +42,7 @@ const positions = [
 ]
 
 function Grid({ ...props }) {
-    const { generation, horizontal, vertical } = props
+    const { generation, horizontal, vertical, speedInterval } = props
     debugger
     const [grid, setGrid] = useState(() => {
         return constructGrid(0, 0, 0);
@@ -94,7 +94,7 @@ function Grid({ ...props }) {
                             }
                             setInterval(() => {
                                 runSimulation()
-                            }, 1000)
+                            }, speedInterval)
                         }}                >
                         {start ? "Stop" : "Play"}
                     </button>
