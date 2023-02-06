@@ -39,3 +39,6 @@ The file input.txt under the sorce specifies the initial state of the game:
   <img src="https://github.com/EliasW/game-of-life/blob/master/src/game-of-life-stop.png"">
 </p>
 
+
+<li><strong> Limitations </strong> </li>
+<p> Once the simulation started, it stops by clicking the stop button, the simulation continue running even the live cells are all dead & the live cells are living to the next generation. </p>
