@@ -40,5 +40,5 @@ The file input.txt under the sorce specifies the initial state of the game:
 </p>
 
 
-<li><strong> Limitations </strong> </li>
+<strong> Limitations </strong> <br>
 <p> Once the simulation started, it stops by clicking the stop button, the simulation continue running even the live cells are all dead & the live cells are living to the next generation. </p>
